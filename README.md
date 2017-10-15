@@ -2,8 +2,8 @@
 This is cool little app to check the anomaly in your weight.
 
 # API - Description
-# /egen-be-challenge/metric/create<br/>
-Used to create metrics, execute rules to create alerts and create alerts
+# /egen-be-challenge/metric/create
+Used to create metrics, execute rules to create alerts and create alerts<br/>
 {  
    "timeStamp":"1507864793409",
    "value":"107"
@@ -16,7 +16,7 @@ Used to read all data in metrics collection
 Used to read selective data from metrics collection
 
 # /egen-be-challenge/alert/create
-Used to create alert
+Used to create alert<br/>
 {  
    "time":1001,
    "bodyWeight":200,
@@ -36,7 +36,7 @@ Used to delete all data in metrics collection
 Used to delete all data in alerts collection
 
 # /egen-be-challenge/metric/set/base-weight
-Used to set base weight in app-configs collection.
+Used to set base weight in app-configs collection<br/>
 {  
    "configName":"baseWeight",
    "value":"120"
