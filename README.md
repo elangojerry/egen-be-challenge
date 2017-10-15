@@ -2,7 +2,7 @@
 This is cool little app to check the anomaly in your weight.
 
 # API - Description
-# /egen-be-challenge/metric/create
+# /egen-be-challenge/metric/create<br/>
 Used to create metrics, execute rules to create alerts and create alerts
 {  
    "timeStamp":"1507864793409",
